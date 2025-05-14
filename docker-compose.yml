@@ -19,6 +19,7 @@ services:
       - MONGO_URI=mongodb://mongo:27017/msldb
     ports:
       - "80:80"
+      - "443:443"
 
 volumes:
   mongo_data:
